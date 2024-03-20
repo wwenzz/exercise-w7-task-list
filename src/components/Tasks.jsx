@@ -4,6 +4,7 @@ import TaskList from "./TaskList"
 
 export const Tasks = () => {
   const [taskList, setTaskList] = useState([])
+  // define the setting state functions
   const [loading] = useState(false)
   const [newTodo] = useState("")
 
