@@ -8,6 +8,11 @@ export const Tasks = () => {
   const [loading] = useState(false)
   const [newTodo] = useState("")
 
+  // fetch tasks
+  const fetchTasks = async () => {
+    // set task list to be saved in the state
+  }
+  
   const handleNewTodoChange = () => {
     // set a  new ToDo from the value of the textarea defined in the TaskForm component
   }
